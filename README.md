@@ -13,3 +13,9 @@ Figure 3: electrostatics/ArkA17_bound_electrostatics_standardized.ipynb
 Table 4: (MD data) kinetics/kinetics_Bayesian_statistics.ipynb
 
 Figure 6: (A) contact_map/ArkA12_encounter_contact_difference_map.ipynb (B) electrostatics/avg_ArkA17_bound_and_ArkA12_bound_and_encounter_electrostatics.ipynb (C) SASA_and_hbonds/hydrogen_bonding_ArkA12_ArkA17.ipynb (D) SASA_and_hbonds/SASA_and_P2-Y54_hbond_ArkA12.ipynb
+
+Figure 7: (A) SASA_and_hbonds/SASA_and_P2-Y54_hbond_ArkA12.ipynb (B) hydrophobic/hydrophobic_analysis_ArkA12_bound_and_encounter.ipynb
+
+Figure 8: ion_contacts_and_atomosphere/ion_contacts.py
+
+Table 5: ion_contacts_and_atomosphere/ion_atmosphere.ipynb
