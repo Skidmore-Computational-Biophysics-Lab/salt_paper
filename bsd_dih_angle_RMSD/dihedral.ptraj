@@ -1,0 +1,12 @@
+parm /data/mcohen3/SH3/salt_binding_800mM/cluster_0/prmtop/ArkA12_0_gas_ions.prmtop
+
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_0/mdcrd/stripped_cluster/cluster_0_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_1/mdcrd/stripped_cluster/cluster_1_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_2/mdcrd/stripped_cluster/cluster_2_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_3/mdcrd/stripped_cluster/cluster_3_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_4/mdcrd/stripped_cluster/cluster_4_allsim.mdcrd
+
+multidihedral phi psi omega resrange 59-72 out /data/mcohen3/SH3/analysis/dihedral/dat/dihedral.dat
+
+run
+quit

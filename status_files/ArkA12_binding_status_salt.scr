@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -D /home/jcardoso/data/binding_figures_800ArkA12/ArkA12/pair_wise_distances/binding/salt/status_files/
+#SBATCH -J ArkA12_binding_status
+#SBATCH --error=ArkA12_binding_salt_status_err.out
+#SBATCH --output=ArkA12_binding_salt_status.out
+#SBATCH --partition=gpuq
+#SBATCH --get-user-env
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --time=50:00:00
+
+source /etc/profile.d/modules.sh
+module load anaconda3/python-3.7
+
+python /data/jcardoso/binding_figures_800ArkA12/ArkA12/pair_wise_distances/binding/salt/status_files/ArkA12_binding_type_fwd_rev_s2_partial_pair-wise.py /home/jcardoso/data/binding_figures_800ArkA12/ArkA12/pair_wise_distances/binding/salt/distance_files/ /home/jcardoso/data/binding_figures_800ArkA12/ArkA12/pair_wise_distances/binding/salt/csv/combined/salt_binding_distances.csv 23 11.5

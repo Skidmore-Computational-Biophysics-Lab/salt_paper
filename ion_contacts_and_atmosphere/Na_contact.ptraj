@@ -1,0 +1,25 @@
+parm /data/mcohen3/SH3/salt_binding_800mM/cluster_0/prmtop/ArkA12_0_gas_ions.prmtop
+
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_0/mdcrd/stripped_cluster/cluster_0_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_1/mdcrd/stripped_cluster/cluster_1_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_2/mdcrd/stripped_cluster/cluster_2_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_3/mdcrd/stripped_cluster/cluster_3_allsim.mdcrd
+trajin /data/mcohen3/SH3/salt_binding_800mM/cluster_4/mdcrd/stripped_cluster/cluster_4_allsim.mdcrd
+
+distance :XXXXX@Na+ :6@CD out ./Na_distances/glu_Na_XXXXX-7.dat
+distance :XXXXX@Na+ :13@CD out ./Na_distances/glu_Na_XXXXX-14.dat
+distance :XXXXX@Na+ :16@CD out ./Na_distances/glu_Na_XXXXX-17.dat
+distance :XXXXX@Na+ :21@CD out ./Na_distances/glu_Na_XXXXX-22.dat
+distance :XXXXX@Na+ :29@CD out ./Na_distances/glu_Na_XXXXX-30.dat
+distance :XXXXX@Na+ :39@CD out ./Na_distances/glu_Na_XXXXX-40.dat
+distance :XXXXX@Na+ :41@CD out ./Na_distances/glu_Na_XXXXX-42.dat
+distance :XXXXX@Na+ :8@CG out ./Na_distances/asp_Na_XXXXX-9.dat
+distance :XXXXX@Na+ :10@CG out ./Na_distances/asp_Na_XXXXX-11.dat
+distance :XXXXX@Na+ :14@CG out ./Na_distances/asp_Na_XXXXX-15.dat
+distance :XXXXX@Na+ :23@CG out ./Na_distances/asp_Na_XXXXX-24.dat
+distance :XXXXX@Na+ :32@CG out ./Na_distances/asp_Na_XXXXX-33.dat
+distance :XXXXX@Na+ :33@CG out ./Na_distances/asp_Na_XXXXX-34.dat
+distance :XXXXX@Na+ :34@CG out ./Na_distances/asp_Na_XXXXX-35.dat
+distance :XXXXX@Na+ :43@CG out ./Na_distances/asp_Na_XXXXX-44.dat
+run
+quit 

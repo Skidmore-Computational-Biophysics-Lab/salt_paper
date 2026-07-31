@@ -1,0 +1,13 @@
+parm /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/prmtop/stripped_with_ions.prmtop [ions_parm]
+parm /data/cmcclure/SH3/abp1-arka17_800mM_salt/simulations/abp1-arka17_800mM_salt/abp1-arka_highsalt_nowat.prmtop [noions_parm]
+trajin /home/oonwuzul/data/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_10.mdcrd parm [ions_parm]
+radgyr allatoms out /home/jcardoso/data/salt_binding_figures/ArkA17/fluctuation_analysis/salt/radgyr/radgyr_aa_10.dat
+radgyr backbone @N,CA,C out /home/jcardoso/data/salt_binding_figures/ArkA17/fluctuation_analysis/salt/radgyr/radgyr_bb_10.dat
+run
+reference /data/cmcclure/SH3/abp1-arka17_800mM_salt/simulations/abp1-arka17_800mM_salt/abp1-arka_highsalt_nowat.inpcrd parm [noions_parm] [nmr]
+rmsd ref [nmr] :1-58@N,CA,C out /home/jcardoso/data/salt_binding_figures/ArkA17/fluctuation_analysis/salt/rmsd/rmsd_10.dat
+atomicfluct out /home/jcardoso/data/salt_binding_figures/ArkA17/fluctuation_analysis/salt/rmsf/rmsf_10.dat byres
+atomicfluct @N,CA,C out /home/jcardoso/data/salt_binding_figures/ArkA17/fluctuation_analysis/salt/rmsf/rmsf_backbone_10.dat byres
+run
+quit
+

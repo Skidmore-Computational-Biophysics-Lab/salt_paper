@@ -1,0 +1,41 @@
+parm /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/prmtop/SH3/abp1-arka17_800mM_salt/stripped_with_ions.prmtop
+
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_1.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_2.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_3.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_4.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_5.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_6.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_7.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_8.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_9.mdcrd
+#
+trajin /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/mdcrd/prod_stripped/abp1-arka_highsalt_stripped_with_ions_10.mdcrd
+#
+
+distance :XXXXX@NZ :8@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D9_KXXXXX.dat
+distance :XXXXX@NZ :10@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D11_KXXXXX.dat
+distance :XXXXX@NZ :14@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D15_KXXXXX.dat
+distance :XXXXX@NZ :23@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D24_KXXXXX.dat
+distance :XXXXX@NZ :32@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D33_KXXXXX.dat
+distance :XXXXX@NZ :33@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D34_KXXXXX.dat
+distance :XXXXX@NZ :34@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D35_KXXXXX.dat
+distance :XXXXX@NZ :43@CG out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/D44_KXXXXX.dat
+distance :XXXXX@NZ :6@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E7_KXXXXX.dat
+distance :XXXXX@NZ :13@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E14_KXXXXX.dat
+distance :XXXXX@NZ :16@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E17_KXXXXX.dat
+distance :XXXXX@NZ :21@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E22_KXXXXX.dat
+distance :XXXXX@NZ :29@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E30_KXXXXX.dat
+distance :XXXXX@NZ :39@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E40_KXXXXX.dat
+distance :XXXXX@NZ :41@CD out /data/oonwuzul/abp1-arka17_bound/salt/abp1-arka17_800mM_salt/dat/E42_KXXXXX.dat
+
+run
+quit

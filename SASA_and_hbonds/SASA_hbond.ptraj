@@ -1,0 +1,28 @@
+parm /data/chem_shared/SH3/ArkA12-SH3_binding_800mM_NaCl/cluster_0/ArkA12_0_gas_ions.prmtop
+
+trajin /data/chem_shared/SH3/ArkA12-SH3_binding_800mM_NaCl/cluster_0/cluster_0_allsim.mdcrd
+trajin /data/chem_shared/SH3/ArkA12-SH3_binding_800mM_NaCl/cluster_1/cluster_1_allsim.mdcrd
+trajin /data/chem_shared/SH3/ArkA12-SH3_binding_800mM_NaCl/cluster_2/cluster_2_allsim.mdcrd
+trajin /data/chem_shared/SH3/ArkA12-SH3_binding_800mM_NaCl/cluster_3/cluster_3_allsim.mdcrd
+trajin /data/chem_shared/SH3/ArkA12-SH3_binding_800mM_NaCl/cluster_4/cluster_4_allsim.mdcrd
+
+surf out dat/surf.dat
+surf :60 out dat/surf.dat
+surf :61 out dat/surf.dat
+surf :62 out dat/surf.dat
+surf :63 out dat/surf.dat
+surf :64 out dat/surf.dat
+surf :65 out dat/surf.dat
+surf :66 out dat/surf.dat
+surf :67 out dat/surf.dat
+surf :68 out dat/surf.dat
+surf :69 out dat/surf.dat
+surf :70 out dat/surf.dat
+surf :71 out dat/surf.dat
+
+hbond donormask :1-71 acceptormask :1-71 nointramol out num_hb.dat avgout avg_hb.dat #series uuseries hb_series.dat
+hbond donormask :1-66 acceptormask :1-66 nointramol out num_hb_seg1.dat avgout avg_hb_seg1.dat
+hbond donormask :53,61 acceptormask :53,61 nointramol out P2_Y54.dat avgout avg_P2_Y54.dat
+
+run
+quit 

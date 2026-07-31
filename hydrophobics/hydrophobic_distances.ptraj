@@ -1,0 +1,73 @@
+parm /data/rcarrock/ArkA_binding_cont/analysis_all/ArkA12_1_gas.prmtop
+
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_1.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_2.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_3.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_4.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_5.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_6.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_7.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_8.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_9.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_0/mdcrd/combined_10.mdcrd
+
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_1.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_2.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_3.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_4.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_5.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_6.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_7.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_8.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_9.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_1/mdcrd/combined_10.mdcrd
+
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_1.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_2.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_3.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_4.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_5.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_6.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_7.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_8.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_9.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_2/mdcrd/combined_10.mdcrd
+
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_1.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_2.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_3.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_4.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_5.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_6.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_7.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_8.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_9.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_3/mdcrd/combined_10.mdcrd
+
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_1.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_2.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_3.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_4.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_5.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_6.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_7.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_8.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_9.mdcrd
+trajin /data/rcarrock/ArkA_binding_cont/cluster_4/mdcrd/combined_10.mdcrd
+
+distance :61@CG :53@CD1 out ./distances/P2_Y54.dat
+distance :61@CG :52@CG out ./distances/P2_N53.dat
+distance :64@CD :52@CG out ./distances/P-1_N53.dat
+distance :64@CD :50@CG out ./distances/P-1_P51.dat
+distance :70@CB :48@CG out ./distances/L-7CB_L49.dat
+distance :66@CG :48@CG out ./distances/K-3CG_L49.dat
+distance :66@CD :12@CB out ./distances/K-3CD_A13.dat
+distance :63@CD :9@CE1 out ./distances/P0_Y10.dat
+
+distance :60@CB :7@CG out ./distances/K3_Y8.dat
+distance :63@CB :50@CG out ./distances/P0_P51.dat
+distance :64@CG :34@HB2 out ./distances/P-1_D35.dat
+distance :66@CG :35@CE2 out ./distances/K-3_W36.dat
+
+run
+quit 
