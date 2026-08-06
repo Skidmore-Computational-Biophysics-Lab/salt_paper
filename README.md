@@ -3,6 +3,9 @@ This repository contains the scripts used to analyze the data for:
 
 CITE SALT PAPER HERE
 
+## About Status Files
+Jupyter Notebooks that analyze encounter frames from simulations utilize a "status" file that determines the status of the binding pathway at each frame. This file is created using scripts in the status_files/ folder. Instructions on how to use these scripts can be found in this folder.
+
 ## Figures
 Pathways to the Jupyter Notebooks that produced the figures and tabular data in the manuscript and SI
 
